@@ -38,7 +38,7 @@ The primary objective of this analysis is to predict whether applicants will be 
     - Categorical variables were encoded using `pd.get_dummies`.
     - Less frequent categories in features like "APPLICATION_TYPE" and "CLASSIFICATION" were binned into a common "Other" category, reducing noise and potential overfitting.
 
-![Feature Importance (Image/feature_importance.png)
+![Feature Importance](Image/feature_importance.png)
 
 ### Summary
 The deep learning model has shown reasonable accuracy in predicting the success of an application. With an accuracy of 72.61%, it may provide valuable insights for Alphabet Soup when determining which organizations to fund. 
